@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Pokemon from './components/Pokemon';
+import AxiosPokemon from './components/AxiosPokemon';
 
 function App() {
   return (
     <fieldset>
       <legend>App.jsx</legend>
-      <Pokemon />
+      <AxiosPokemon />
     </fieldset>
   );
 }
